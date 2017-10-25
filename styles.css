@@ -63,10 +63,10 @@ a {
 a:hover {
   color: #F6A623;
 }
-.post, .about{
+.post, .about, .photo {
   max-width: 800px;
   margin: 0 auto;
-  padding: 60px 0;
+  padding: 30px 0;
 }
 .post-author img {
   width: 80px;
@@ -104,4 +104,17 @@ p {
 }
 .post-container:nth-child(even) {
   background-color: #E6E6E6;
+}
+.pic img {
+  width: 350px;
+  height: 250px;
+  vertical-align: middle;
+}
+.pic span {
+  margin-left: 20px;
+}
+.photo {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px 0;
 }
